@@ -6,38 +6,47 @@
     Description: Projet scolaire au sujet de la transidentité
 -->
     <head>
-        <title>Les transidentités</title>
+        <title>Les Transidentités</title>
         <meta charset="UTF-8" />
         <link rel="stylesheet" href="./styles/style.css" />
+        <base target="_blank" />
     </head>
 
     <body>
-        <header>
-            <h1>Les transidentités</h1>
-            <img
-                src="images/drapeau_trans.png"
-                alt="Drapeau Transgenre, c'est 5 ligne depuis le haut: bleu ciel, rose, blanc, rose, bleu ciel"
-            />
+        <!--Header start: Titre + navigation-->
+        <header class="shadow hLinks">
+            <h1>Les Transidentités</h1>
 
             <nav>
-                <div class="flex" id="currentPage">Accueil</div>
+                <div class="flex center">
+                    <a href="./index.html" class="flex center" id="currentPage"
+                        >Accueil</a
+                    >
 
-                <div class="flex">Coming-out</div>
+                    <a href="./comingout.html" class="flex center"
+                        >Coming-out</a
+                    >
 
-                <div class="flex">Les transitions</div>
+                    <a href="./transitions.html" class="flex center"
+                        >Les transitions</a
+                    >
 
-                <div class="flex">Un peu d'histoire</div>
+                    <a href="./histoire.html" class="flex center"
+                        >Un peu d'histoire</a
+                    >
 
-                <div class="flex">En Suisse</div>
+                    <a href="./suisse.html" class="flex center">En Suisse</a>
 
-                <div class="flex">Quelques associations</div>
+                    <a class="flex center">Quelques associations</a>
+                </div>
             </nav>
         </header>
 
         <main>
-            <article>
+            <!--Premier paragraphe avec son image-->
+            <article class="flex">
                 <div>
-                    <h1>Ça veut dir quoi, être trans ?</h1>
+                    <h1>Ça veut dire quoi, être trans ?</h1>
                     <p>
                         Une personne trans*, ou personne transgenre, est une
                         personne dont le genre qu'elle ressent de s'aligne pas
@@ -54,10 +63,15 @@
                         src="./images/drapeau_enby.png"
                         alt="Drapeau non-binaire: 4 couleurs de haut en bas: jaune, blanc, violet, noir"
                     />
+                    <p class="sourceIMG">
+                        Image du drapeau non-binaire créée par
+                        <a href="https://lucielle.ch">Lucielle</a>
+                    </p>
                 </div>
             </article>
 
-            <article>
+            <!--Deuxième paragraphe avec son image-->
+            <article class="left flex">
                 <div>
                     <p>
                         Dans le cas où le sexe est identifiable comme un pénis,
@@ -83,10 +97,15 @@
                         src="./images/drapeau_catgender.png"
                         alt="Drapeau cat-gender: 6 couleurs de haut en bas: bleu ciel, bleu, rose clair, rose, violet clair, violet. Il y a une trace de pas de chat au centre du drapeau."
                     />
+                    <p class="sourceIMG">
+                        Image du drapeau catgender créée par
+                        <a href="https://lucielle.ch">Lucielle</a>
+                    </p>
                 </div>
             </article>
 
-            <article>
+            <!--Troisième paragraphe avec son image-->
+            <article class="flex">
                 <div>
                     <p>
                         Les personnes trans* sont donc des personnes qui ont été
@@ -101,18 +120,78 @@
                     </p>
                 </div>
                 <div>
-                    <img src="./images/oeil_trans.jpg" alt="Oeil gauche de quelqu'un qui ferme les yeux. Le drapeau transgenre est maquillé sur sa paupière">
+                    <img
+                        src="./images/oeil_trans.jpg"
+                        alt="Oeil gauche de quelqu'un qui ferme les yeux. Le drapeau transgenre est maquillé sur sa paupière"
+                    />
+                    <p class="sourceIMG">
+                        Photo de
+                        <a
+                            href="https://unsplash.com/fr/@kylewilliamurban?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                            >Kyle</a
+                        >
+                        sur
+                        <a
+                            href="https://unsplash.com/fr/photos/fard-a-paupieres-bleu-de-la-personne-a0KL1Um0wBA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                            >Unsplash</a
+                        >
+                    </p>
+                </div>
+            </article>
+
+            <!--Sources et documentation de la page-->
+            <article class="sources shadow">
+                <div>
+                    <h2>Sources</h2>
+                </div>
+
+                <div>
+                    Agnodice (Ed.). (2020). Agnodice [Site de l'association
+                    Agnodice]. Récupéré de
+                    <a href="https://agnodice.ch/">https://agnodice.ch/</a>.
+                    <hr />
+                    InterAction (Ed.). (2023). InterAction [Site de
+                    l'association InterAction]. Récupéré de
+                    <a href="https://www.inter-action-suisse.ch/fr/home"
+                        >https://www.inter-action-suisse.ch/fr/home</a
+                    >.
+                    <hr />
+                    La vie en queer. (2018). Les identités de genres
+                    non-binaires[Blog]. Récupéré de
+                    <a
+                        href="https://lavieenqueer.wordpress.com/2018/06/02/les-identites-de-genres-non-binaires/"
+                        >https://lavieenqueer.wordpress.com/2018/06/02/les-identites-de-genres-non-binaires/</a
+                    >.
+                    <hr />
+                    Lexie. (2021). Une histoire de genres: Guide pour comprendre
+                    et défendre les transidentités. Vanves Cedex : Marabout.
+                    <hr />
+                    Wikitrans. (2020). La non-binarité c'est quoi ? [Wiki sur la
+                    transidentité]. Récupéré de
+                    <a
+                        href="https://wikitrans.co/2020/01/07/la-non-binarite-cest-quoi/"
+                        >https://wikitrans.co/2020/01/07/la-non-binarite-cest-quoi/</a
+                    >.
+                    <hr />
+                    Wikitrans. (2019). Qu'est-ce qu'une transition ? [Wiki sur
+                    la transidentité]. Récupéré de
+                    <a
+                        href="https://wikitrans.co/2019/01/19/quest-ce-quune-transition/"
+                        >https://wikitrans.co/2019/01/19/quest-ce-quune-transition/</a
+                    >.
+                    <hr />
                 </div>
             </article>
         </main>
 
-        <footer>
-            <div>
-                Powered by <a href="lucielle.ch">Lucielle</a>
+        <hr id="footer">
+        <footer class="flex">
+            <p>
+                Powered by <a href="https://lucielle.ch">Lucielle</a>
                 <br />
                 Un grand merci à <a href="">Philippy Galley</a>
-            </div>
-            <div>Dernière mise à jour: 11.01.2024</div>
+            </p>
+            <p class="alignRight">Dernière mise à jour: 11.01.2024</p>
         </footer>
     </body>
 </html>
