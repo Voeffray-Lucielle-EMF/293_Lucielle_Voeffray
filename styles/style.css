@@ -27,9 +27,29 @@ img {
     margin-bottom: 0px;
 }
 
-img.transition{
-    width: 400px;
-    height: 247px;
+img.transition {
+    width: 600px;
+    height: auto;
+}
+
+img.science {
+    width: 500px;
+    height: 300px;
+}
+
+#flag {
+    width: 300px;
+    height: 300px;
+}
+
+#Marsha_P {
+    width: auto;
+    height: auto;
+}
+
+.transFlag {
+    border-color: blanchedalmond;
+    border-style: solid;
 }
 
 .shadow {
@@ -138,6 +158,16 @@ article.left {
     text-align: center;
 }
 
+#transition {
+    margin-top: 30px;
+}
+
+.centerIMG {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*Sources*/
 
 .sources {
@@ -166,6 +196,59 @@ footer {
     margin-top: 30px;
 }
 
+/*Quelques associations*/
+img.profileTeam {
+    padding: 10px;
+}
+
+img#ekivock {
+    max-width: 400px;
+    height: 200px
+}
+
+h5.teamName {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.backgroundTeam {
+    border-radius: 20px;
+    background-color: #5BCEFA;
+    display: flex;
+    margin: 20px;
+    margin-bottom: 10px;
+
+}
+
+.backgroundTeam:hover {
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    margin-bottom: 10px;
+    width: fit-content;
+    height: fit-content;
+}
+
+div.centerTeam {
+    margin-left: 20%;
+    padding: 10px;
+  }
+
+a.teamL {
+    text-decoration: none;
+}
+
+/*En général pour les Téléphones et écrans verticaux*/
 @media screen and (max-width: 1000px) {
     .flex {
         flex-direction: column;
@@ -187,5 +270,35 @@ footer {
 
     article {
         text-align: center;
+    }
+}
+
+
+/*Pour les écrans très minces*/
+@media screen and (max-width: 385px) {
+    .flex {
+        flex-direction: column;
+    }
+
+    article.left {
+        flex-direction: column;
+    }
+
+    header {
+        background-image: url(../images/drapeau_trans.png);
+        background-size: 170px;
+        height: 380px;
+    }
+
+    .alignRight {
+        margin-left: 6%;
+    }
+
+    article {
+        text-align: center;
+    }
+
+    .sources {
+        width: 300px;
     }
 }
