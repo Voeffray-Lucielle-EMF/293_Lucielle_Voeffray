@@ -227,6 +227,7 @@ div.backgroundTeam {
     display: flex;
     margin: 20px;
     margin-bottom: 10px;
+    width: fit-content;
 
 }
 
@@ -240,8 +241,9 @@ div.backgroundTeam {
 }
 
 div.centerTeam {
-    margin-left: 20%;
-    padding: 10px;
+    margin: auto;
+    width: fit-content;
+
   }
 
 a.teamL {
@@ -267,10 +269,6 @@ a.teamL {
     .alignRight {
         margin-left: 6%;
     }
-
-    article {
-        text-align: center;
-    }
 }
 
 
@@ -292,10 +290,6 @@ a.teamL {
 
     .alignRight {
         margin-left: 6%;
-    }
-
-    article {
-        text-align: center;
     }
 
     .sources {
