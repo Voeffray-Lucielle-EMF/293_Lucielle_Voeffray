@@ -263,7 +263,7 @@ a.teamL {
     header {
         background-image: url(../images/drapeau_trans.png);
         background-size: 170px;
-        height: 350px;
+        height: fit-content;
     }
 
     .alignRight {
