@@ -296,31 +296,3 @@ a.teamL {
         width: 300px;
     }
 }
-
-@media screen and (max-width: 250px) {
-    .flex {
-        flex-direction: column;
-    }
-
-    article.left {
-        flex-direction: column;
-    }
-
-    header {
-        background-image: url(../images/drapeau_trans.png);
-        background-size: 170px;
-        height: 430px;
-    }
-
-    .alignRight {
-        margin-left: 6%;
-    }
-
-    .sources {
-        width: 300px;
-    }
-
-    h1 {
-        font-size: 25px;
-    }
-}
