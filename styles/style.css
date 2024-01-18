@@ -270,29 +270,3 @@ a.teamL {
         margin-left: 6%;
     }
 }
-
-
-/*Pour les écrans très minces*/
-@media screen and (max-width: 385px) {
-    .flex {
-        flex-direction: column;
-    }
-
-    article.left {
-        flex-direction: column;
-    }
-
-    header {
-        background-image: url(../images/drapeau_trans.png);
-        background-size: 170px;
-        height: 380px;
-    }
-
-    .alignRight {
-        margin-left: 6%;
-    }
-
-    .sources {
-        width: 300px;
-    }
-}
