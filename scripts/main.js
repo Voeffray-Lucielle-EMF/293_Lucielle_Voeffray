@@ -5,7 +5,7 @@ Description: Code JS pour le projet
 */
 
 //Changer la date de modification
-let LastMod = "18.01.2024";
+let LastMod = "19.01.2024";
 
 let date = document.getElementById("date");
 date.textContent = "Dernière mise à jour: " + LastMod;
