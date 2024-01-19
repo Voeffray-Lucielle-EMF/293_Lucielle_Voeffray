@@ -5,11 +5,11 @@ Description: Code JS pour le projet
 */
 
 //Changer la date de modification
-let LastMod = "18.01.2024"
+let LastMod = "18.01.2024";
 
-let date = document.getElementById("date")
+let date = document.getElementById("date");
 date.textContent = "Dernière mise à jour: " + LastMod;
-console.log(date.textContent = "Dernière mise à jour: " + LastMod);
+console.log((date.textContent = "Dernière mise à jour: " + LastMod));
 
 //Alerte au chargement de la page
 function chargement() {
@@ -24,4 +24,3 @@ CatGender.addEventListener("click", boop);
 function boop() {
     alert("Boop");
 }
-

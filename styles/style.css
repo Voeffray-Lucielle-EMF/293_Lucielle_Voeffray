@@ -203,7 +203,7 @@ img.profileTeam {
 
 img#ekivock {
     max-width: 400px;
-    height: 200px
+    height: 200px;
 }
 
 h5.teamName {
@@ -223,17 +223,16 @@ img.center {
 
 div.backgroundTeam {
     border-radius: 20px;
-    background-color: #5BCEFA;
+    background-color: #5bcefa;
     display: flex;
     margin: 20px;
     margin-bottom: 10px;
     width: fit-content;
-
 }
 
 .backgroundTeam:hover {
     border-radius: 20px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     display: flex;
     margin-bottom: 10px;
     width: fit-content;
@@ -243,8 +242,7 @@ div.backgroundTeam {
 div.centerTeam {
     margin: auto;
     width: fit-content;
-
-  }
+}
 
 a.teamL {
     text-decoration: none;
